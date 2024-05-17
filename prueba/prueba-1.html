@@ -1,0 +1,49 @@
+<html>
+    <link rel="stylesheet" href="test.css">
+    <head>
+        <title>creppy</title>
+        <h1>el crespo.com</h1>
+        <p>tus crepipastos favoritos</p>
+    </head>
+    <body>
+        <table>
+            <th><a href="prueba.html">que so</a></th>
+            <th><a href="lasama.html">legana</a></th>
+        </table>
+        <h1>binebivos</h1>
+        <div id="nose">
+            <p id="pololeo" onclick="play() | pause()">Bienvenido a otro video de DeiGamer
+                <br>Donde disfrutarás algo diferente
+                <br>Relajate acomodate siente la escencia
+                <br>Disfrutando estando en mi presencia
+                <br>No tienes por qué estar deprimido
+                <br>Sientate en tu silla y disfruta conmigo
+                <br>El video épico está por comenzar
+                <br>Asi que prepárate para de la risa llorar</p>
+            <video id="video" oncanplay="play()" src="homer.mp4" controls width="500" loop muted></video>
+        </div>
+        <script>
+            function play(){
+                var video = document.getElementById("video");
+                video.muted=false;
+                video.play();
+            }
+        </script>
+        <script>
+            function play() {
+              var audio = document.getElementById("audio");
+                audio.play();
+            }
+          </script>
+          <script>
+            function pause() {
+              var audio = document.getElementById("audio");
+              if(audio.play()===true){
+                audio.pause();
+              }
+            }
+          </script>
+
+        <audio id="audio" src="onedirection.m4a"></audio>
+    </body>
+</html>

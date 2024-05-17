@@ -1,0 +1,81 @@
+table,th{
+    border-collapse: collapse;
+    border: 3px solid rgba(22, 22, 22, 0.699);
+    background-color: black;
+}
+table{
+    width: 100%;
+}
+th{
+    width: 50%;
+}
+body{
+    background-image: url(.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+html{
+    color: aliceblue;
+}
+a{
+    color:rgb(146, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    width: 250px;
+    background-image: url(bleed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: darkred;
+    text-shadow: 1px 0 #000000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000 ;
+}
+.flex-container{
+    display: flex;
+    padding: 5px;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.flex-container div{
+        margin: 5px;
+        padding: 10px;
+    }   
+div#lele{
+    p{
+    background-color: rgb(13, 24, 17);
+    border: solid rgb(66, 48, 8);
+    border-style:ridge;
+}
+}
+img{
+    border: solid rgb(66, 48, 8);
+    border-style:ridge;
+    border-radius: 10px;
+    border-width: 5px;
+}
+div#nose{
+    p{
+        margin-left: 36%;
+        margin-right: 36%;
+        text-align: center;
+        background-image: url(caleca.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-weight: 900;
+        line-height: 45px;
+        text-shadow: 1px 0 #000000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000 ;
+
+    }
+}
+video{
+    margin-top: 100%;
+    margin-left: 31%;
+}
